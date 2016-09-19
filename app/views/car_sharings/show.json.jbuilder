@@ -1,0 +1,1 @@
+json.partial! "car_sharings/car_sharing", car_sharing: @car_sharing

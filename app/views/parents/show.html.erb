@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @parent.last_name %>
+</p>
+
+<p>
+  <strong>Mother name:</strong>
+  <%= @parent.mother_name %>
+</p>
+
+<p>
+  <strong>Father name:</strong>
+  <%= @parent.father_name %>
+</p>
+
+<p>
+  <strong>Mother phone:</strong>
+  <%= @parent.mother_phone %>
+</p>
+
+<p>
+  <strong>Father phone:</strong>
+  <%= @parent.father_phone %>
+</p>
+
+<p>
+  <strong>Mother email:</strong>
+  <%= @parent.mother_email %>
+</p>
+
+<p>
+  <strong>Father email:</strong>
+  <%= @parent.father_email %>
+</p>
+
+<p>
+  <strong>Street:</strong>
+  <%= @parent.street %>
+</p>
+
+<p>
+  <strong>Zip code:</strong>
+  <%= @parent.zip_code %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @parent.city %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @parent.country %>
+</p>
+
+<%= link_to 'Edit', edit_parent_path(@parent) %> |
+<%= link_to 'Back', parents_path %>

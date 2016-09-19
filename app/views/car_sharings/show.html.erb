@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @car_sharing.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @car_sharing.description %>
+</p>
+
+<p>
+  <strong>Nb seats:</strong>
+  <%= @car_sharing.nb_seats %>
+</p>
+
+<p>
+  <strong>Event:</strong>
+  <%= @car_sharing.event %>
+</p>
+
+<p>
+  <strong>Player:</strong>
+  <%= @car_sharing.player %>
+</p>
+
+<%= link_to 'Edit', edit_car_sharing_path(@car_sharing) %> |
+<%= link_to 'Back', car_sharings_path %>

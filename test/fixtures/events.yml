@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  name: MyString
+  description: MyString
+  when: 2016-09-19 23:32:48
+  street: MyString
+  zip_code: MyString
+  city: MyString
+  country: MyString
+  team: one
+
+two:
+  type: 
+  name: MyString
+  description: MyString
+  when: 2016-09-19 23:32:48
+  street: MyString
+  zip_code: MyString
+  city: MyString
+  country: MyString
+  team: two

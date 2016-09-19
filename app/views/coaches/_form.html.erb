@@ -1,0 +1,62 @@
+<%= form_for(coach) do |f| %>
+  <% if coach.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(coach.errors.count, "error") %> prohibited this coach from being saved:</h2>
+
+      <ul>
+      <% coach.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :first_name %>
+    <%= f.text_field :first_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :last_name %>
+    <%= f.text_field :last_name %>
+  </div>
+
+  <div class="field">
+    <%= f.label :phone %>
+    <%= f.text_field :phone %>
+  </div>
+
+  <div class="field">
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+  </div>
+
+  <div class="field">
+    <%= f.label :street %>
+    <%= f.text_field :street %>
+  </div>
+
+  <div class="field">
+    <%= f.label :zip_code %>
+    <%= f.number_field :zip_code %>
+  </div>
+
+  <div class="field">
+    <%= f.label :city %>
+    <%= f.text_field :city %>
+  </div>
+
+  <div class="field">
+    <%= f.label :county %>
+    <%= f.text_field :county %>
+  </div>
+
+  <div class="field">
+    <%= f.label :team_id %>
+    <%= f.text_field :team_id %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

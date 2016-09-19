@@ -1,0 +1,2 @@
+json.extract! parent, :id, :last_name, :mother_name, :father_name, :mother_phone, :father_phone, :mother_email, :father_email, :street, :zip_code, :city, :country, :created_at, :updated_at
+json.url parent_url(parent, format: :json)
